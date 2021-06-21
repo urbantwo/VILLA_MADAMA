@@ -560,3 +560,54 @@ footer {
 .torna-attivo {
     right: 50px;
 }
+
+
+
+
+/*Spazio per i pulsanti delle sale*/
+
+.spazio-sale {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spazio-sale .pulsante-sala {
+   /* background-color: green; */
+    flex: 30%;
+    margin: 10px;
+    flex-basis: 30%;
+    height: 80px;
+}
+
+.pulsante-sala a {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+}
+
+.pulsante-sala a div {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: inherit;
+}
+
+.pulsante-sala a div img {
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+.pulsante-sala a div div{
+    
+}
+
+.pulsante-sala a div div h1 {
+    position: absolute;
+    color: white;
+    font-size: 18pt;
+}
+
